@@ -1,28 +1,31 @@
-# Gradfolio
+# Luca's Website
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+Welcome to the repository of my personal website, designed with the responsive and dark-mode-ready Gradfolio Jekyll theme. Visit my site to learn more about me and the work I do. 
 
 ## Features
-- Responsive
-- Respects Dark Mode preference set by the user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
 
-## Installation
-* Click on `Use this template`
-* Your new site should be ready at https://username.github.io/gradfolio/
-* You can now modify the contents and personalise the template
+- **Responsive Design:** My site adapts seamlessly to any screen size or device for a consistent user experience.
+- **Dark Mode:** Respects your Dark Mode preference to reduce eye strain and save battery life.
+- **Projects Showcase:** I've highlighted some of my most significant work and side projects on a dedicated page.
+- **Profile Links:** You can also find links to my profiles on LinkedIn or Twitter, for example.
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and [make changes locally](https://github.com/jitinnair1/gradfolio/wiki/Local-Development). 
+## How I Built This
 
-## Documentation
+If you're curious about how I set up this website, here are the basic steps:
+
+1. I started by clicking on `Use this template`.
+2. The new site was immediately ready at `https://username.github.io/`.
+3. I then modified the contents and personalized the template to suit my personal brand and needs.
+
+## Learn More
 
 Check out the [Wiki](https://github.com/jitinnair1/gradfolio/wiki) for some tips on [publishing to a custom domain](https://github.com/jitinnair1/gradfolio/wiki/Publishing-your-website) or an [indicative list of things to customise before you publish](https://github.com/jitinnair1/gradfolio/wiki/Customising-your-website) 
 
-### Also, check out:
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+## Contributions
 
+If you notice any bugs on my site or have suggestions for improvements, please open an issue in this repository. I appreciate any and all feedback.
 
-PS: If you liked the theme, do star :star: it! Thanks!
+## License
+
+My site is open-source, licensed under the MIT License. I believe in the power of sharing knowledge, so feel free to use, modify, and distribute my site as you wish, while respecting the terms of the license.
