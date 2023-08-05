@@ -7,15 +7,11 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+<h2 style="display: inline;">Hey!</h2><p style="display: inline;"> I'm Luca, an AI enthusiast and current Master's student in Artificial Intelligence at the University of Amsterdam. My academic focus lies in graph algorithms and representational learning, building upon a solid foundation in Computer Science and Engineering from TU Delft.<br><br></p>   
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+<p style="display: inline;">During my academic journey, I've contributed to several significant projects, including a fairness-enhanced graph algorithm which earned recognition at the MLRC and secured a Kaggle research grant (more on the <a href="/projects/">Projects</a> page). <br><br></p>   
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+<p style="display: inline;"> In addition to my studies, I served as a Lead Engineer for <a href="https://www.teamepoch.net/">TU Delft's AI Student Team</a>, leading our group to a top-10 finish in the competitive AWS DeepRacer RL Challenge. These experiences have fueled my passion for the practical applications of AI, particularly its responsible and impactful deployment in various sectors.<br><br></p>
 
-PS: If you liked the theme, do star it on GitHub!
 
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+<p style="display: inline;">Outside the realm of AI, I love for mountain biking and traveling. Whether it's exploring a new trail or algorithm, I am driven by discovery and innovation. 🚀</p>
