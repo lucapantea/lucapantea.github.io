@@ -6,116 +6,90 @@
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  /* Compensate for excess margin on outer gallery flex items */
-  margin: -1rem -1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  // This sets the layout to be two columns
+  grid-gap: 2rem;
+  margin: 0;
 }
 
 .projectTile {
-  /* Minimum width of 200px and grow to fit available space */
-  flex: 1 0 200px;
   border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
   background: $projectbox;
+  
   @media (prefers-color-scheme: dark) {
     background: $projectbox-dark;
   }
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
-  display: table;
+  
+  &:hover {
+    transform: translateY(-10px);
+  }
 }
 
 .projectTile a {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
-.projectTile a span {
-  display: flex;
-  justify-content: center;
+.projectImage {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
 }
 
-.projectTile a span h2 {
-  font-size: 1.5rem;
-  padding: 1rem;
-  color: $projectbox-text;
-}
-
-.projectTile:hover a span h2 {
-  display: none;
-}
-
-.projectTile a span p {
-  display: none;
-}
-
-.projectTile:hover a span p {
-  font-size: 1.2rem;
-  display: flex;
-  padding: 1rem;
-  color: $projectbox-text;
+.projectInfo {
+  padding: 15px;
+  background-color: #f9f9f9; // Adjust this if you have a variable for this color
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: $projectbox-text;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
 }
 
 @include media-query($on-phone) {
-  @media screen and (max-width: $on-phone){
-
-    .projectTile {
+  @media screen and (max-width: $on-phone) {
+    .projectImage {
       height: 80px;
     }
-
-    .projectTile a span h2 {
+  
+    .projectInfo h2 {
       font-size: 1.2rem;
     }
-
-    .projectTile:hover a span p {
-      display: none;
-    }
-
-    .projectTile:hover a span h2 {
-      display: flex;
-    }
-
-
   }
 }
 
 @include media-query($on-palm) {
-  @media screen and (max-width: $on-palm){
-
-    .projectTile {
+  @media screen and (max-width: $on-palm) {
+    .projectImage {
       height: 100px;
     }
-
-    .projectTile a span h2 {
+  
+    .projectInfo h2 {
       font-size: 1.3rem;
     }
-
-    .projectTile:hover a span p {
-      display: none;
-    }
-
-    .projectTile:hover a span h2 {
-      display: flex;
-    }
-
   }
 }
 
-
-@supports (display: grid) {
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 2rem;
-  }
-
-  .gallery,
-  .gallery-item {
-    margin: 0;
-  }
+.projectTileLink {
+  text-decoration: none; /* Remove the default underline from the anchor tag */
+  color: inherit; /* Ensure text color remains consistent when hovering */
+  display: block; /* Make sure it behaves as a block for layout purposes */
 }
 
-//Based on: https://codepen.io/GeorgePark/pen/vdqYom
+.projectImage {
+  transition: transform 0.3s ease; /* This ensures the animation is smooth */
+}
+
+.projectTileLink:hover .projectImage {
+  transform: scale(1.05); /* The image will enlarge to 105% of its size on hover */
+}
+
