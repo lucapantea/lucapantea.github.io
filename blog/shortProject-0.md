@@ -1,14 +1,19 @@
 ---
 layout: post
-title: Hello!
-description: description of the short project which is long enough
-image:  /assets/images/thumbnail-2.png
+title: Fairness-Enhanced Representational Learning 
+description: Introducing SoftWalk. Significant improving fairness and node representational quality.
+image:  /assets/images/thumbnail-1.png
 ---
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+
+
+
+
 
 H1 Header
 ============
 
+
+Hoi!
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
