@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Fairness-Enhanced Representational Learning 
-description: Introducing SoftWalk. Significant improving fairness and node representational quality.
+description: Introducing SoftWalk. Significantly improving fairness and node representational quality.
 image:  /assets/images/thumbnail-0.png
 ---
 
 
-> The work was accepted for the 2022 Machine Learning Reproducibility Challenge and published in ReScience C journal and was awarded a $10,000 grant from [Kaggle](https://www.kaggle.com/code/lucapantea1/reproducibility-study-of-crosswalk).
+> The work was accepted for the 2022 Machine Learning Reproducibility Challenge and published in ReScience C journal and was awarded a $10,000 grant from Kaggle.
+> **Paper links**: [OpenReview](https://openreview.net/forum?id=tpk45Zll8eh) | [Kaggle](https://www.kaggle.com/code/lucapantea1/reproducibility-study-of-crosswalk) | [GitHub](https://github.com/Dawlau/FACT-AI)
 
 ![Header Image](/assets/images/FACT.png)
 
@@ -79,7 +80,7 @@ P(u_i = u \lvert u_{i-1} = v) = \left\{
 \end{equation}
 $$
 
-Where $c(u, \ v)$ stores the number of times the walk has traversed the edge between node $u$ and $v$. As $\gamma \in [0, \ 1]$, if $\gamma \rightarrow 1$, the behaviour is similar to CrossWalk, while $\gamma \rightarrow 0$ stimulates the random walk to avoid already visited edges. We call this method <span style="color: #79ba8d;font-weight:900">SoftWalk</span>.
+Where $c(u, \ v)$ stores the number of times the walk has traversed the edge between node $u$ and $v$. As $\gamma \in [0, \ 1]$, if $\gamma \rightarrow 1$, the behaviour is similar to CrossWalk, while $\gamma \rightarrow 0$ stimulates the random walk to avoid already visited edges. $\pi_{uv}$ represents probability of selecting the edge $(u, \ v)$, weighted by the modifed edge weights of CrossWalk, as expressed above. We call this method <span style="color: #79ba8d;font-weight:900">SoftWalk</span>.
 
 Our implementation uses a HashMap initialized per random walk for storing the counts of the previously visited edges, which has a worst-case time and space complexity of $\mathcal{O}(K)$, where $K$ represents the preset random walk length. Thus, our proposed method scales with $K$, which <span style="color: #79ba8d;font-weight:900">supports scalability</span>, as $K$ $<<$ $\lvert E\lvert$, where $E$ is the set of graph edges for a given graph.
 
