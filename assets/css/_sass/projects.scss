@@ -1,13 +1,17 @@
+/* Define breakpoints if not already defined */
+$on-phone: 600px;
+$on-palm: 480px;
+
 /* Project Page */
 .ProjectContainer {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
-
+/* Modify the gallery for larger screens (default) */
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr;  // This sets the layout to be two columns
+  grid-template-columns: 1fr 1fr; /* Two columns by default */
   grid-gap: 2rem;
   margin: 0;
 }
@@ -56,29 +60,38 @@
   }
 }
 
-@include media-query($on-phone) {
-  @media screen and (max-width: $on-phone) {
-    .projectImage {
-      height: 80px;
-    }
-  
-    .projectInfo h2 {
-      font-size: 1.2rem;
-    }
+/* Media query for phone-sized screens */
+@media screen and (max-width: $on-phone) {
+  .gallery {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+
+  .projectImage {
+    height: auto; /* Adjust height for phone-sized screens */
+    padding-top: 56.25%; /* 16:9 aspect ratio, adjust as needed */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .projectInfo h2 {
+    font-size: 1.2rem; /* Adjust font size for phone-sized screens */
   }
 }
 
-@include media-query($on-palm) {
-  @media screen and (max-width: $on-palm) {
-    .projectImage {
-      height: 100px;
-    }
-  
-    .projectInfo h2 {
-      font-size: 1.3rem;
-    }
+/* Media query for even smaller screens (like palms) */
+@media screen and (max-width: $on-palm) {
+  .projectImage {
+    height: auto; /* Adjust height for phone-sized screens */
+    padding-top: 56.25%; /* 16:9 aspect ratio, adjust as needed */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .projectInfo h2 {
+    font-size: 1.3rem; /* Adjust font size for palm-sized screens */
   }
 }
+
 
 .projectTileLink {
   text-decoration: none; /* Remove the default underline from the anchor tag */
