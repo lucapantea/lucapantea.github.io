@@ -14,11 +14,24 @@ body {
   text-rendering: optimizeLegibility;
   height: 100%;
 
+  // Responds to system preference
   @media (prefers-color-scheme: dark) {
     background-color: $body-bg-dark;
     color: $text-color-dark;
   }
+
+  // Manual overrides
+  &.dark-theme {
+    background-color: $body-bg-dark;
+    color: $text-color-dark;
+  }
+
+  &.light-theme {
+    background-color: $body-bg;
+    color: $text-color;
+  }
 }
+
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;

@@ -20,3 +20,28 @@ $text-color: #333;
 $body-bg-dark: #23272d;
 $projectbox-dark: lighten(#98a0ac, 2%);
 $text-color-dark: #98a0ac;
+  
+
+// Toggleable theme classes
+.light-theme {
+    background-color: $body-bg;
+    color: $text-color;
+    // Define other elements like links, headers, etc. for the light theme
+    a {
+      color: $brand-color;
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+
+.dark-theme {
+    background-color: $body-bg-dark;
+    color: $text-color-dark;
+    a {
+        color: $brand-color;
+        &:hover {
+          color: $text-color-dark;
+        }
+      }
+}
