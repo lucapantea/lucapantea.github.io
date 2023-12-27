@@ -16,31 +16,40 @@
                 
                 // Function to toggle the theme
                 function toggleTheme() {
-                        if (body.classList.contains('dark-theme')) {
-                        body.classList.remove('dark-theme');
-                        body.classList.add('light-theme');
-                        themeIcon.classList.remove('fa-sun');
-                        themeIcon.classList.add('fa-moon');
-                        } else {
-                        body.classList.remove('light-theme');
-                        body.classList.add('dark-theme');
-                        themeIcon.classList.remove('fa-moon');
-                        themeIcon.classList.add('fa-sun');
-                        }
+                  if (body.classList.contains('dark-theme')) {
+                    body.classList.remove('dark-theme');
+                    body.classList.add('light-theme');
+                    localStorage.setItem('theme', 'light'); // Save theme to localStorage
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                  } else {
+                    body.classList.remove('light-theme');
+                    body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark'); // Save theme to localStorage
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                  }
                 }
                 
-                // Set initial theme based on system preference
-                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                        body.classList.add('dark-theme');
-                        themeIcon.classList.remove('fa-moon');
-                        themeIcon.classList.add('fa-sun');
-                } else {
-                        body.classList.add('light-theme');
-                        themeIcon.classList.remove('fa-sun');
-                        themeIcon.classList.add('fa-moon');
+                // Function to apply the saved theme
+                function applyTheme() {
+                  const savedTheme = localStorage.getItem('theme');
+                  if (savedTheme === 'dark') {
+                    body.classList.add('dark-theme');
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                  } else if (savedTheme === 'light') {
+                    body.classList.add('light-theme');
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                  }
                 }
                 
+                // Set initial theme based on saved preference
+                applyTheme();
+              
                 // Listener for the theme switcher
                 themeSwitcher.addEventListener('click', toggleTheme);
         </script>
+              
 </div>
