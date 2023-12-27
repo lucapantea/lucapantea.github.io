@@ -14,7 +14,7 @@ published: true
 <p style="display: inline;"> In addition to my studies, I served as a Lead Engineer for <a href="https://www.teamepoch.net/">TU Delft's AI Student Team</a>, leading our group to a top-10 finish in the competitive AWS DeepRacer RL Challenge. These experiences have fueled my passion for the practical applications of AI, particularly its responsible and impactful deployment in various sectors.<br><br></p>
 
 
-<p style="display: inline;">Outside the realm of AI, I love for mountain biking and traveling. Whether it's exploring a new trail or algorithm, I am driven by discovery and innovation. 🚀</p>
+<p style="display: inline;">Outside the realm of AI, I love mountain biking and traveling. Whether it's exploring a new trail or algorithm, I am driven by discovery and innovation. 🚀</p>
 
 
 <br>

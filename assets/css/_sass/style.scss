@@ -206,3 +206,21 @@ blockquote {
       background: #f7f7f7;
   }
 }
+
+
+.links {
+  display: flex; // Use flexbox to lay out children in a row
+  align-items: center; // Center items vertically
+  justify-content: flex-start; // Align items to the start of the container
+
+  // Style individual links
+  a {
+    margin-right: $spacing-unit;
+  }
+
+  // Theme switcher styles
+  .theme-switcher {
+    margin-left: 0px;
+    color: $brand-color;
+  }
+}
