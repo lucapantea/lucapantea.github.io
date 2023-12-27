@@ -1,7 +1,9 @@
 ### your site title here
 
 title: Luca Pantea
-description: MSc Student in Artificial Intelligence | University of Amsterdam
+description: "MSc Student in Artificial Intelligence &nbsp;
+ <img src='https://cdn.freebiesupply.com/logos/large/2x/amsterdam-38-logo-png-transparent.png' alt='University Logo' style='max-width: 20px; height: 20px;'> &nbsp;
+ University of Amsterdam"
 
 baseurl: #name of GitHub repository
 url: https://lucapantea.github.io #custom url to be used instead of GitHub repository
@@ -70,4 +72,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-email-protect
-  - jekyll-target-blank
+  - jekyll-target-blank 
