@@ -20,7 +20,7 @@ published: true
 <br>
 
 <h3>Contact Me</h3>
-<p style="margin-top: 0; margin-bottom: 5px;">I'm always open to fresh ideas and exciting collaborations. Let's create something beautiful together!</p>
+<p style="margin-top: 0; margin-bottom: 5px;">I'm always open to fresh ideas and exciting collaborations. Let's create something together!</p>
 <p style="margin-top: 0; margin-bottom: 5px;">
   <span style="display: inline-block; margin-right: 10px;">
     <i class="fas fa-phone-alt"></i> 
