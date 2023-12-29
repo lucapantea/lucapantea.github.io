@@ -7,8 +7,7 @@ image:  /assets/images/thumbnail-lgcn.png
 
 
 > The work was accepted for the New in Machine Learning Workshop at the Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS), 2023.
-> **Paper links**: [GitHub](https://github.com/lucapantea/LightGCN)
-
+> **Paper links**: [arXiv](https://arxiv.org/abs/2312.16183) | [GitHub](https://github.com/lucapantea/LightGCN)
 
 This project builds on top of the paper [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://arxiv.org/abs/2002.02126) by Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang. The paper was published at SIGIR 2020.
 
