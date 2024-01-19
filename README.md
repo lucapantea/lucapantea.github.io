@@ -1,6 +1,6 @@
 # Luca's Website
 
-Welcome to the repository of my personal website, designed with the responsive and dark-mode-ready Gradfolio Jekyll theme. Visit my site to learn more about me and the work I do. 
+Welcome to the repository of my website, designed with the responsive and dark-mode-ready Gradfolio Jekyll theme. Visit my site to learn more about me and the work I do. 
 
 ## Features
 
