@@ -7,17 +7,14 @@ profile:
 published: true
 ---
 
-<h2 style="display: inline;">Hey!</h2><p style="display: inline;"> I'm Luca, an AI enthusiast and current Master's student in Artificial Intelligence at the University of Amsterdam. My academic focus lies in graph algorithms and representational learning, building upon a solid foundation in Computer Science and Engineering from TU Delft.<br><br></p>   
+<h2 style="display: inline;">Hey!</h2><p style="display: inline;"> I'm Luca, an AI enthusiast and a second-year Master's student in Artificial Intelligence at the University of Amsterdam, building upon a Bachelor's in Computer Science and Engineering from Delft University of Technology. My research focus is centred around Graph Representational Learning, exploring its applications in Geometric Deep Learning, Pandemic Forecasting, Quantum Chemistry, Recommender Systems and Fairness in AI.<br><br></p>
 
-<p style="display: inline;">During my academic journey, I've contributed to several significant projects, including a fairness-enhanced graph algorithm which earned recognition at the MLRC and secured a Kaggle research grant (more on the <a href="/projects/">Projects</a> page). <br><br></p>   
+<p style="display: inline;"> My journey has been marked by meaningful experiences that shaped my understanding of the fundamentals of AI and its applications. I've had the opportunity to work on a variety of research projects, including a fairness-enhanced graph algorithm project, which was awarded a Kaggle grant of $10,000 (<a href="https://www.kaggle.com/code/lucapantea1/reproducibility-study-of-crosswalk">open-source notebook</a>), and a diffusion-based graph recommender systems project. Both projects were accepted as posters at NeurIPS 2023 (more info on the <a href="/projects/">Projects</a> page). Right now I am working under the supervision of <a href="https://robromijnders.github.io/">Rob Romijnders</a> and <a href="https://yukimasano.github.io/">Dr. Yuki M. Asano</a> on a spatial-temporal graph neural network approach for decentralised contact tracing.<br><br></p>
 
-<p style="display: inline;"> In addition to my studies, I served as a Lead Engineer for <a href="https://www.teamepoch.net/">TU Delft's AI Student Team</a>, leading our group to a top-10 finish in the competitive AWS DeepRacer RL Challenge. These experiences have fueled my passion for the practical applications of AI, particularly its responsible and impactful deployment in various sectors.<br><br></p>
+<p style="display: inline;"> 
+In addition to research, I've had the chance to turn theoretical into practical as a Chief Engineer for <a href="https://www.teamepoch.net/">TU Delft's AI Student Team</a>, where I led our team to a top-10 finish in the AWS DeepRacer RL Challenge. I've also worked as a System Integration Engineer at Yes!Delft Impact Lab, where I worked on integrating a sensors on a SPOT Boston Dynamics to automate construction site inspections for a major construction company in the Netherlands. These experiences have fueled my passion for the practical applications of AI, particularly its responsible and impactful deployment in various sectors.<br><br></p>
 
-
-<p style="display: inline;">Outside the realm of AI, I love mountain biking and traveling. Whether it's exploring a new trail or algorithm, I am driven by discovery and innovation. 🚀</p>
-
-
-<br>
+<p style="display: inline;">Away from AI, I find joy in mountain biking and globe-trotting. Whether navigating new trails or algorithms, my drive lies in discovery and innovation. 🚀 </p>
 
 <h3>Contact Me</h3>
 <p style="margin-top: 0; margin-bottom: 5px;">I'm always open to fresh ideas and exciting collaborations. Let's create something together!</p>
