@@ -14,7 +14,7 @@ published: true
 <p style="display: inline;"> 
 In addition to research, I've had the chance to turn theoretical into practical as a Chief Engineer for <a href="https://www.teamepoch.net/">TU Delft's AI Student Team</a>, where I led our team to a top-10 finish in the AWS DeepRacer RL Challenge. I've also worked as a System Integration Engineer at Yes!Delft Impact Lab, where I worked on integrating a sensors on a SPOT Boston Dynamics to automate construction site inspections for a major construction company in the Netherlands. These experiences have fueled my passion for the practical applications of AI, particularly its responsible and impactful deployment in various sectors.<br><br></p>
 
-<p style="display: inline;">Away from AI, I find joy in mountain biking and globe-trotting. Whether navigating new trails or algorithms, my drive lies in discovery and innovation. 🚀 <br><br></p>
+<p style="display: inline;">Away from AI, I love mountain biking and traveling. Whether it's exploring a new trail or algorithm, I am driven by discovery and innovation. 🚀 <br><br></p>
 
 <h3>Contact Me</h3>
 <p style="margin-top: 0; margin-bottom: 5px;">I'm always open to fresh ideas and exciting collaborations. Let's create something together!</p>
