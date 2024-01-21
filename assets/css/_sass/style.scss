@@ -14,11 +14,11 @@ body {
   text-rendering: optimizeLegibility;
   height: 100%;
 
-  // Responds to system preference
-  @media (prefers-color-scheme: dark) {
-    background-color: $body-bg-dark;
-    color: $text-color-dark;
-  }
+  // // Responds to system preference
+  // @media (prefers-color-scheme: dark) {
+  //   background-color: $body-bg-dark;
+  //   color: $text-color-dark;
+  // }
 
   // Manual overrides
   &.dark-theme {
@@ -55,9 +55,9 @@ a {
   &:hover{
     color: $text-color;
 
-    @media (prefers-color-scheme: dark) {
-      color: $text-color-dark;
-    }
+    // @media (prefers-color-scheme: dark) {
+    //   color: $text-color-dark;
+    // }
 
   }
 }
@@ -85,9 +85,9 @@ p a {
 
   }
 
-  @media (prefers-color-scheme: dark) {
-    color: $text-color-dark;
-  }
+  // @media (prefers-color-scheme: dark) {
+  //   color: $text-color-dark;
+  // }
 }
 
 
