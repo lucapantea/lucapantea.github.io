@@ -72,7 +72,7 @@
                 {% include icon-links.html %}
               </div>
       
-              <div class="executive-summary" itemprop="description" style="text-align: justify">
+              <div class="executive-summary" itemprop="description">
                 {{ site.resume_header_intro }}
               </div>
       
@@ -109,7 +109,7 @@
                     <li>{{ award.award }}</li>
                     {% endfor %}
                   </ul>
-                <p class="resume-item-copy" style="text-align: justify;">{{ education.summary }}</p>
+                <p class="resume-item-copy">{{ education.summary }}</p>
               </div>
               {% endfor %}
             </section>
@@ -134,7 +134,7 @@
                   <h4 class="resume-item-details" itemprop="description">{{ job.position }} <span style="margin: 0 7px;">&bull;</span> {{ job.duration }}</h4>
                 </div>
 
-                <p class="resume-item-copy" style="text-align: justify;">{{ job.summary }}</p>
+                <p class="resume-item-copy">{{ job.summary }}</p>
               </div><!-- end of resume-item -->
               {% endfor %}
       
@@ -172,7 +172,7 @@
               </header>
               {% for publication in site.data.publications %}
               <div class="resume-item">
-                <p class="resume-item-copy" style="text-align: justify">{{ publication.citation }}</p>
+                <p class="resume-item-copy">{{ publication.citation }}</p>
               </div>
               {% endfor %}
       
