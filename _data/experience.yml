@@ -1,5 +1,6 @@
 # Jobs
 - company: Amsterdam Machine Learning Lab
+  logo_url: "/assets/images/amlab.png"
   position: Thesis Student Researcher
   duration: January 2024 &mdash; Present
   summary: "Working on Reinforcement Learning-Finetuned Temporal Graph Neural Networks for COVID-19 Contact Tracing, \ 
@@ -7,23 +8,27 @@
     QUVA Lab, University of Amsterdam and <a href=https://www.epfl.ch/labs/lts4/people/people-current/frossard/>Prof. Pascal Frossard</a>, EPFL, Switzerland."
 
 - company: University of Amsterdam
+  logo_url: "/assets/images/uva.png"
   position: Graduate Teaching Assistant
   duration: August 2022 &mdash; Present
   summary: "Assisted in teaching graduate-level courses by making sure students understood the material, answering their questions, creating assignments, giving feedback, and grading exams. \
     <br><em>Courses:</em> <ul style='list-style-type: circle; margin: 0; padding: 0 0 0 20px;'><li>Computer Vision 1</li><li>Information Retrieval 1</li><li>Fundamentals of Data Science</li><li>Fairness, Accountability, Confidentiality & Transparency in AI</li></ul>"
 
 - company: Yes!Delft Impact Lab
+  logo_url: "/assets/images/yesd.png"
   position: System Integration Engineer (SPOT Mobility Team)
   duration: February 2022 &mdash; July 2022
   summary: "Developed a system for data capturing using Boston Dynamics <a href=https://bostondynamics.com/products/spot/>SPOT robot</a> within the ImpactLab Transformative Mobility Team, \ 
     serving clients like <a href=https://www.ns.nl/>NS</a> and <a href=https://www.volkerwessels.com/nl/>VolkerWessels</a>. Involved in all stages of the project lifecycle, from concept to deployment."
 
 - company: TU Delft Student AI Team `Epoch`
+  logo_url: "/assets/images/epoch.png"
   position: Chief AI Engineer
   duration: August 2021 &mdash; February 2022
   summary: "Led a team of 5 students in high-profile Data Science and AI competitions. Top 10 finish in <a hrefhttps://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge>AWS DeepRacer Challenge 2021</a> (300+ participants)."
 
 - company: PricewaterhouseCoopers
+  logo_url: "/assets/images/pwc.png"
   position: Software Engineering Intern (Deal Analytics Team)
   duration: April 2021 &mdash; July 2021
   summary: "Developed an application improve corporate entity matching, increasing efficiency by 40% with affinity propagation clustering algorithms and asynchronous processing"

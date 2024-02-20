@@ -2,6 +2,7 @@
 - degree: Master of Science, Artificial Intelligence
   uni: University of Amsterdam
   year: 2022 &mdash; 2024
+  logo_url: "/assets/images/uva.png"
   award: "<a href=https://ivi.fnwi.uva.nl/ellis/>ELLIS Honours Programme</a>"
   summary: "<em>Coursework</em>: Machine Learning, Deep Learning, Reinforcement Learning, Natural Language Processing, Information Retrieval, Computer Vision, Recommender Systems, Causality, Human-in-the-Loop ML \
     <br><em>GPA</em>: 8.5/10"
@@ -9,6 +10,7 @@
 - degree: Bachelor of Science, Computer Science and Engineering
   uni: Delft University of Technology
   year: 2019 &mdash; 2022
+  logo_url: "/assets/images/tud.png"
   summary: "<em>Thesis</em>: Adapting to Dynamic User Preferences in Recommendation Systems via Deep Reinforcement Learning \
     (<a href=http://resolver.tudelft.nl/uuid:9e3e4b62-1056-4d23-b48f-4acb0a708290>link</a>), supervised by <a href=https://www.fransoliehoek.net/wp/>Prof. Frans A. Oliehoek</a>. \
     <br> <em>Minor</em>: Electrical Sustainable Energy Systems.\
