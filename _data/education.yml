@@ -1,13 +1,17 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Master of Science, Artificial Intelligence
+  uni: University of Amsterdam
+  year: 2022 &mdash; 2024
+  award: "<a href=https://ivi.fnwi.uva.nl/ellis/>ELLIS Honours Programme</a>"
+  summary: "<em>Thesis</em>: Reinforcement Learning-Finetuned Temporal Graph Neural Networks for COVID-19 Contact Tracing, \ 
+    supervised by <a href=https://robromijnders.github.io/>Rob Romijnders</a>, <a href=https://yukimasano.github.io/>Dr. Yuki M. Asano</a>, \ 
+    QUVA Lab, University of Amsterdam and <a href=https://www.epfl.ch/labs/lts4/people/people-current/frossard/>Prof. Pascal Frossard</a>, EPFL, Switzerland. \
+    <br> <em>GPA</em>: 8.5/10"
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Bachelor of Science, Computer Science and Engineering
+  uni: Delft University of Technology
+  year: 2019 &mdash; 2022
+  summary: "<em>Thesis</em>: Adapting to Dynamic User Preferences in Recommendation Systems via Deep Reinforcement Learning \
+    (<a href=http://resolver.tudelft.nl/uuid:9e3e4b62-1056-4d23-b48f-4acb0a708290>link</a>), supervised by <a href=https://www.fransoliehoek.net/wp/>Prof. Frans A. Oliehoek</a>. \
+    <br> <em>Minor</em>: Electrical Sustainable Energy Systems.\
+    <br> <em>GPA</em>: 7.9/10"
