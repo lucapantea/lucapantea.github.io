@@ -3,10 +3,8 @@
   uni: University of Amsterdam
   year: 2022 &mdash; 2024
   award: "<a href=https://ivi.fnwi.uva.nl/ellis/>ELLIS Honours Programme</a>"
-  summary: "<em>Thesis</em>: Reinforcement Learning-Finetuned Temporal Graph Neural Networks for COVID-19 Contact Tracing, \ 
-    supervised by <a href=https://robromijnders.github.io/>Rob Romijnders</a>, <a href=https://yukimasano.github.io/>Dr. Yuki M. Asano</a>, \ 
-    QUVA Lab, University of Amsterdam and <a href=https://www.epfl.ch/labs/lts4/people/people-current/frossard/>Prof. Pascal Frossard</a>, EPFL, Switzerland. \
-    <br> <em>GPA</em>: 8.5/10"
+  summary: "<em>Coursework</em>: Machine Learning, Deep Learning, Reinforcement Learning, Natural Language Processing, Information Retrieval, Computer Vision, Recommender Systems, Causality, Human-in-the-Loop ML \
+    <br><em>GPA</em>: 8.5/10"
 
 - degree: Bachelor of Science, Computer Science and Engineering
   uni: Delft University of Technology

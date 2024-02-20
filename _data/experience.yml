@@ -1,19 +1,29 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Amsterdam Machine Learning Lab
+  position: Thesis Student Researcher
+  duration: January 2024 &mdash; Present
+  summary: "Working on Reinforcement Learning-Finetuned Temporal Graph Neural Networks for COVID-19 Contact Tracing, \ 
+    supervised by <a href=https://robromijnders.github.io/>Rob Romijnders</a>, <a href=https://yukimasano.github.io/>Dr. Yuki M. Asano</a>, \ 
+    QUVA Lab, University of Amsterdam and <a href=https://www.epfl.ch/labs/lts4/people/people-current/frossard/>Prof. Pascal Frossard</a>, EPFL, Switzerland."
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: University of Amsterdam
+  position: Graduate Teaching Assistant
+  duration: August 2022 &mdash; Present
+  summary: "Assisted in teaching graduate-level courses by making sure students understood the material, answering their questions, creating assignments, giving feedback, and grading exams. \
+    <br><em>Courses:</em> <ul style='list-style-type: circle; margin: 0; padding: 0 0 0 20px;'><li>Computer Vision 1</li><li>Information Retrieval 1</li><li>Fundamentals of Data Science</li><li>Fairness, Accountability, Confidentiality & Transparency in AI</li></ul>"
 
+- company: Yes!Delft Impact Lab
+  position: System Integration Engineer (SPOT Mobility Team)
+  duration: February 2022 &mdash; July 2022
+  summary: "Developed a system for data capturing using Boston Dynamics <a href=https://bostondynamics.com/products/spot/>SPOT robot</a> within the ImpactLab Transformative Mobility Team, \ 
+    serving clients like <a href=https://www.ns.nl/>NS</a> and <a href=https://www.volkerwessels.com/nl/>VolkerWessels</a>. Involved in all stages of the project lifecycle, from concept to deployment."
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: TU Delft Student AI Team `Epoch`
+  position: Chief AI Engineer
+  duration: August 2021 &mdash; February 2022
+  summary: "Led a team of 5 students in high-profile Data Science and AI competitions. Top 10 finish in <a hrefhttps://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge>AWS DeepRacer Challenge 2021</a> (300+ participants)."
+
+- company: PricewaterhouseCoopers
+  position: Software Engineering Intern (Deal Analytics Team)
+  duration: April 2021 &mdash; July 2021
+  summary: "Developed an application improve corporate entity matching, increasing efficiency by 40% with affinity propagation clustering algorithms and asynchronous processing"
