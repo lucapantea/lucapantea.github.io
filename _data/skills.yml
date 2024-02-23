@@ -1,12 +1,15 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+## Programming Languages
+- skill: Programming Languages
+  description: Proficient in Python, SQL, Java, R, Scala, Spark, C/C++, Haskell, JavaScript. Capable of applying these languages to solve complex problems, develop software, and analyze data.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Libraries & Frameworks
+  description: Experienced with PyTorch (Torch, Geometric), Tensorflow, Keras, JAX, NumPy, Pandas, SciPy, scikit-learn, FastAI.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Big Data Technologies
+  description: Knowledgeable in Apache Hadoop, Spark, Kafka, Flink. Implements big data solutions for processing and analyzing large datasets.
+
+- skill: Databases
+  description: Experienced with both SQL (MySQL, PostgreSQL) and NoSQL (Neo4j, MongoDB) databases
+
+- skill: Tooling
+  description: Proficient in Git, Jupyter, Docker, Kubernetes, Slurm, GCP and Linux

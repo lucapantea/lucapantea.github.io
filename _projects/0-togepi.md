@@ -5,4 +5,4 @@ description: Better GNNs through Geometry and Topology.
 image:  /assets/images/positional_encoding.png
 ---
 
-TODO: Add a description of the project here.
+⚠️ **This page is under construction.** ⚠️
