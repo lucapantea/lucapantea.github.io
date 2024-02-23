@@ -106,7 +106,7 @@ resume_section_projects:        false
 resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           false
-resume_section_associations:    false
+resume_section_associations:    true
 resume_section_publications:    true
 resume_section_interests:       true
 

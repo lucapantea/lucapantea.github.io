@@ -1,15 +1,20 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- organization: Oxford Machine Learning Summer School (OxML)
+  role: Participant
+  year: 2023
+  url: https://www.oxfordml.school/
+  summary: "Organised by AI for Global Goals and in partnership with CIFAR and the University of Oxford’s Deep Medicine Program. \
+    Covered 41 hours of lectures on advanced topics in ML theory and its applications in Finance & NL. \
+    <a href='/OxML2023Certificate-Luca_Pantea.pdf'>Certificate</a>"
 
 
-- organization: Yale Amnesty International
-  role: Communications coordinator
-  year: 2002 &mdash; 2004
-  url: http://campuspress.yale.edu/amnesty/
-  summary: During my junion and senior years at Yale, I was actively involved in Yale Amnesty International where I helped facilitate our student organization communications through website maintenance, writing for our campus publication, and graphic design of related materials.
+- organization: Eastern European Machine Learning Summer School (EEML)
+  role: Participant
+  year: 2021
+  url: https://www.eeml.eu/home
+  summary: "A week-long program covering advanced topics in Deep Learning and Reinforcement Learning, \
+    with seminars and tutorials covering JAX, RL, causal effect estimation, explainability in ML and \
+    graph representation learning. \
+    <a href='/EEML2021Certificate-Luca_Pantea.pdf'>Certificate</a>"
