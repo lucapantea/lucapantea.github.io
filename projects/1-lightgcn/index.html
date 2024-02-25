@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script>
+            // Inline script to apply theme before the page renders
+            (function() {
+              const savedTheme = localStorage.getItem('theme');
+              if (savedTheme) {
+                document.documentElement.className = savedTheme;
+              }
+            })();
+        </script>
+        
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Luca Pantea</h1>
+        <h3 class="post-description">MSc Student in Artificial Intelligence &nbsp; <img src='https://cdn.freebiesupply.com/logos/large/2x/amsterdam-38-logo-png-transparent.png' alt='University Logo' style='max-width: 20px; height: 20px;'> &nbsp; University of Amsterdam</h3>
+
+        <div class="links scroll">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <a href="/">Home</a>
+        <a href="/projects/">Projects</a>
+        <!-- <a href="/blog/">Blog</a> -->
+        <a href="/resume/">Résumé</a>
+        <!-- <a href="/Luca_Pantea_CV_2_0.pdf">Résumé</a> -->
+        <div id="theme-switcher" class="theme-switcher">
+                <i class="fas fa-sun" id="theme-icon"></i>
+        </div>  
+
+        <script>
+          const themeSwitcher = document.getElementById('theme-switcher');
+          const themeIcon = document.getElementById('theme-icon');
+          const body = document.body;
+
+          // Function to toggle the theme
+          function toggleTheme() {
+            if (body.classList.contains('dark-theme')) {
+              body.classList.remove('dark-theme');
+              body.classList.add('light-theme');
+              localStorage.setItem('theme', 'light'); // Save theme to localStorage
+              themeIcon.classList.remove('fa-sun');
+              themeIcon.classList.add('fa-moon');
+            } else {
+              body.classList.remove('light-theme');
+              body.classList.add('dark-theme');
+              localStorage.setItem('theme', 'dark'); // Save theme to localStorage
+              themeIcon.classList.remove('fa-moon');
+              themeIcon.classList.add('fa-sun');
+            }
+          }
+
+          // Function to apply the saved theme or default to light
+          function applyTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+              body.classList.add('dark-theme');
+              themeIcon.classList.remove('fa-moon');
+              themeIcon.classList.add('fa-sun');
+            } else {
+              // Default to light theme
+              body.classList.add('light-theme');
+              themeIcon.classList.remove('fa-sun');
+              themeIcon.classList.add('fa-moon');
+            }
+          }
+
+          // Set initial theme based on saved preference or default
+          applyTheme();
+
+          // Listener for the theme switcher
+          themeSwitcher.addEventListener('click', toggleTheme);
+        </script>
+              
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>LightGCN: Evaluated and Enhanced | Luca Pantea</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="LightGCN: Evaluated and Enhanced" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Improving Graph Recommender Systems through Graph Diffusion." />
+<meta property="og:description" content="Improving Graph Recommender Systems through Graph Diffusion." />
+<link rel="canonical" href="https://lucapantea.github.io/projects/1-lightgcn/" />
+<meta property="og:url" content="https://lucapantea.github.io/projects/1-lightgcn/" />
+<meta property="og:site_name" content="Luca Pantea" />
+<meta property="og:image" content="https://lucapantea.github.io/assets/images/thumbnail-lgcn.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-02-25T15:06:44+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://lucapantea.github.io/assets/images/thumbnail-lgcn.png" />
+<meta property="twitter:title" content="LightGCN: Evaluated and Enhanced" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-25T15:06:44+00:00","datePublished":"2024-02-25T15:06:44+00:00","description":"Improving Graph Recommender Systems through Graph Diffusion.","headline":"LightGCN: Evaluated and Enhanced","image":"https://lucapantea.github.io/assets/images/thumbnail-lgcn.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://lucapantea.github.io/projects/1-lightgcn/"},"url":"https://lucapantea.github.io/projects/1-lightgcn/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+
+        <main>
+            <article>
+                <h1 class="post-headline">LightGCN: Evaluated and Enhanced</h1>
+<p class="meta"><small>February 25, 2024</small></p>
+
+<blockquote>
+  <p>The work was accepted for the New in Machine Learning Workshop at the Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS), 2023.
+<strong>Paper links</strong>: <a href="https://arxiv.org/abs/2312.16183" target="_blank" rel="noopener noreferrer">arXiv</a> | <a href="https://paperswithcode.com/paper/lightgcn-evaluated-and-enhanced" target="_blank" rel="noopener noreferrer">Papers With Code</a> | <a href="https://github.com/lucapantea/LightGCN" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+</blockquote>
+
+<p>This project builds on top of the paper <a href="https://arxiv.org/abs/2002.02126" target="_blank" rel="noopener noreferrer">LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation</a> by Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang. The paper was published at SIGIR 2020.</p>
+
+<h3 id="recommender-systems">Recommender Systems</h3>
+<p>Recommender Systems play a significant part in filtering and efficiently prioritizing relevant information to alleviate the information overload problem and maximize user engagement.</p>
+
+<p>A recommender system makes a customized list of suggestions for users by looking at how they interact with others and their likes or dislikes of certain items. This process, known as Collaborative Filtering (CF), leverages the principle of user-item interactions to predict user preferences and make recommendations. In its basic form, collaborative filtering predicts the user-item interaction matrix as the dot product of user latent factors, denoted by $U$ and item latent factors, denoted by $V$, as follows:</p>
+
+\[\begin{equation}
+    \mathbf{R} \approx \mathbf{UV}^\top
+\end{equation}\]
+
+<p>where $R$ is the predicted interaction matrix.</p>
+
+<h3 id="graph-convolutional-networks">Graph Convolutional Networks</h3>
+<p>Graph Neural Networks (GNNs) and Graph Convolutional Networks (GCNs) utilize the concept of message passing to update node representations based on information from their neighbouring nodes. In this process, each node receives messages from its neighbours and aggregates these messages to obtain an updated embedding. This message passing can be formulated as follows:</p>
+
+\[\begin{equation}
+    \mathbf{h}_v^{(k+1)} = \sigma \left(\sum_{u \in N(v)} \frac{1}{c_{u,v}} \mathbf{W}^{(k)}\mathbf{h}_u^{(k)}\right) 
+\end{equation}\]
+
+<p>where \(\mathbf{h}_v^{(k)}\) represents the embedding of node $v$ at layer $k$, $N(v)$ denotes the set of neighboring nodes of $v$, $c_{u,v}$ is a normalization factor, \(\textbf{W}^{(k)}\) is a weight matrix at layer $k$, and $\sigma$ is an activation function.</p>
+
+<h3 id="lightgcn">LightGCN</h3>
+<p>LightGCN is a type of graph convolutional neural network (GCN), including only the most essential component in GCN (neighborhood aggregation) for collaborative filtering. Specifically, LightGCN learns user and item embeddings by linearly propagating them on the user-item interaction graph (<strong>bipartite graph</strong>), and uses the weighted sum of the embeddings learned at all layers as the final embedding.</p>
+
+<p>The resulting aggregation function used in the graph convolutions of LightGCN is the following:</p>
+
+\[\begin{align}
+    &amp;\mathbf{e}_u^{(k + 1)} = \sum_{i \in N_u} \frac{1}{\sqrt{|N_u|}\sqrt{|N_i|}} \mathbf{e}_i^{(k)}  
+    &amp;\mathbf{e}_i^{(k + 1)} = \sum_{u \in N_i} \frac{1}{\sqrt{|N_i|}\sqrt{|N_u|}} \mathbf{e}_u^{(k)}
+\end{align}\]
+
+<p>where $e_u^{(k)}$ and $e_i^{(k)}$ are embedding of user $u$ at layer $k$ and the the embedding of item $i$ at layer $k$ respectively. Therefore, each LightGCN layer computes new embeddings for each user and item by aggregating the embeddings of its immediate neighbours from the previous layer. With this design in place, the only trainable parameters are the embeddings at layers 0, more precisely the embeddings fed as input to the network. The final user or item embeddings obtained by a single forward pass of LightGCN are computed by taking the weighted sum of the embeddings at all layers, so the output embeddings of LightGCN are expressed as:</p>
+
+\[\begin{align}
+    &amp;\mathbf{e}_u = \sum_{k=0}^K \alpha_k \mathbf{e}_u^{(k)}
+    &amp;\mathbf{e}_i = \sum_{k=0}^K \alpha_k \mathbf{e}_i^{(k)}
+\end{align}\]
+
+<p>where $\alpha_k$ represents the weight associated with the embeddings computed by the $k$-th layer. The authors set all of the $\alpha_k$ values to $\frac{1}{K + 1}$.</p>
+
+<p>In order to generate recommendations for a user, the authors take the inner product of its user embedding with the embeddings of all the other items and pick the items with the lowest inner product. The final predictions of LightGCN can be written as:</p>
+
+\[\begin{equation}
+    \hat{y}_{ui}=\mathbf{e}_u^\top \mathbf{e}_i
+\end{equation}\]
+
+<h3 id="training-lightgcn">Training LightGCN</h3>
+<p>To train the LightGCN model, we need an objective function that aligns with our goal for recommendation. We use the Bayesian Personalized Ranking (BPR) loss, which encourages observed user-item predictions to have increasingly higher values than unobserved ones, along with $L_2$ regularization:</p>
+
+\[\begin{equation}
+    L_{BPR} = -\sum_{u=1}^{M}\sum_{i \in N_{u}}\sum_{j \notin N_{u}} ln \: \sigma (\hat{y}_{ui} - \hat{y}_{uj}) + \lambda ||\mathbf{E}^{(0)}||^{2}
+\end{equation}\]
+
+<p>where $\lambda$ is a hyperparameter that controls the $L_2$ regularization factor and $E^{(0)}$ is the embedding matrix at layer 0. The items that are not in the neighbourhood of a user are sampled uniformly.</p>
+
+<h3 id="datasets">Datasets</h3>
+<p>In the original LightGCN paper, He et al. use the datasets Gowalla, Yelp2018, and Amazon-Book. To see how LightGCN
+performs in different domains and dataset sizes, we use five additional datasets: CiteULike, Amazon-Movies, Amazon-Electornics and Amazon-Beauty and Amazon-CDs. The statistics of the datasets are shown in the table below.</p>
+
+<p><img src="/assets/images/datasets-table.png" alt="Datasets Table"></p>
+
+<h3 id="evaluating-lightgcn">Evaluating LightGCN</h3>
+<p>We assess NDCG, recall, precision, diversity and fairness. We calculate <strong>diversity</strong> by the ILD. Users who make repeat purchases receive better recommendations than those exploring new items or with few interactions. To calculate <strong>fairness</strong>, we bin users by the number of interacted items. Similar recommendation performance across bins implies more fairness.</p>
+
+<h3 id="our-enhancement-approximate-personalised-propagation-of-neural-predictions">Our Enhancement: Approximate Personalised Propagation of Neural Predictions</h3>
+<p>Approximate Personalised Propagation of Neural Predictions (APPNP) is a GCN variant and an instance of graph diffusion convolution inspired by Personalised Page Rank (PPR). It derives from topic-sensitive PageRank approximated with power iteration propagating the final embeddings:</p>
+
+\[\begin{aligned}
+    \textbf{Z}^{(0)} &amp;= \textbf{E}^{(K)} \\
+    \textbf{Z}^{(k+1)} &amp;= \alpha \textbf{Z}^{(0)} + (1 - \alpha)\hat{\tilde{\textbf{A}}}\textbf{Z}^{(k)} \\
+    \textbf{Z}^{(K)} &amp;= \text{s} \left( \alpha \textbf{Z}^{(0)} + (1 - \alpha)\hat{\tilde{\textbf{A}}}\textbf{Z}^{(K-1)}  \right)
+\end{aligned}\]
+
+<p>The final embedding matrix $\textbf{E}^{(K)}$ serves as the starting vector and teleport set with $K$ denoting power iteration steps. This method maintains graph sparsity without needing extra training parameters and prevents oversmoothing due to its teleport design. The teleport probability, $\alpha$, adjusts the neighbourhood size. While Gasteiger et al. found optimal alphas between [.05, .2], our grid search on the CiteULike dataset identified the best $\alpha$ as .1. For other datasets, we begin with this alpha, adjusting slightly to optimize test set performance.</p>
+
+<h3 id="fairness-and-diversity">Fairness and Diversity</h3>
+<p>When comparing LightGCN and APPNP on the Gowalla dataset, APPNP comes out ahead in terms of the NDCG@20 metric, which measures the quality of recommendations. However, it doesn’t lead to more diverse recommendations. This points to the importance of looking at multiple metrics to get a full picture of a system’s performance. Additionally, it was found that both models tend to be biased towards users who have more interactions within the system, although APPNP exhibits slightly less bias. This suggests that while APPNP may give better recommendations, it still doesn’t fully solve the issue of creating a diverse set of recommendations fairly for all users.</p>
+
+<p><img src="/assets/images/fairness.png" alt="Fairness and Diversity performance"></p>
+
+<h3 id="performance">Performance</h3>
+<p>In a nutshell, adding propagation techniques to LightGCN (i.e. APPNP), stabilizes early training phases but doesn’t necessarily boost the peak performance of the recommendation system. While LightGCN sees a dip in performance partway through training on the Amazon-Electronics dataset, its counterpart, APPNP, maintains a steady performance level. This pattern holds true across various datasets tested. Essentially, while propagation aids in steadying the training journey, it doesn’t push the final effectiveness beyond what LightGCN achieves on its own.</p>
+
+<p><img src="/assets/images/appnp.png" alt="APPNP performance"></p>
+
+<h3 id="parting-thoughts">Parting Thoughts</h3>
+
+<p>To sum it up, LightGCN’s performance seemed to favour users with a high number of interactions and propagating the embeddings through diffusion generally yields better results than LightGCN. Merging LightGCN with APPNP requires more extensive training and fine-tuning. Future work can consider approaches like Dual LightGCN for graded interaction predictions, integrating graph attention networks for complex relationship capture and understanding how dataset properties such as sparsity and graph size impact diffusion parameters. Check <a href="https://github.com/lucapantea/LightGCN/blob/main/lightgcn_evaluated_and_enhanced.pdf" target="_blank" rel="noopener noreferrer">our paper</a> to see the numbers and plots!</p>
+
+<p><br></p>
+
+<hr>
+<p>If you made it this far, I hope you enjoyed the read and learned something new! If you have any questions, feel free to reach out to me on <a href="https://twitter.com/luca_pantea" target="_blank" rel="noopener noreferrer">Twitter</a> or <a href="https://www.linkedin.com/in/luca-pantea/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. I’d love to hear your thoughts! 😊</p>
+
+<!-- 
+LightGCN is a type of graph convolutional neural network (GCN), including only the most essential component in GCN (neighborhood aggregation) for collaborative filtering. Specifically, LightGCN learns user and item embeddings by linearly propagating them on the user-item interaction graph, and uses the weighted sum of the embeddings learned at all layers as the final embedding.
+ -->
+
+
+<!-- Comments only for posts -->
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Luca Pantea 2024
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 25 February 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6C%75%63%61.%70.%70%61%6E%74%65%61@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/lucapantea" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/lucapantea" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button twitter" href="https://www.twitter.com/luca_pantea" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-twitter"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
