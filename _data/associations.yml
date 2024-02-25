@@ -6,7 +6,7 @@
   year: 2023
   url: https://www.oxfordml.school/
   summary: "Organised by AI for Global Goals and in partnership with CIFAR and the University of Oxford’s Deep Medicine Program. \
-    Covered 41 hours of lectures on advanced topics in ML theory and its applications in Finance & NL. \
+    Covered 41 hours of lectures on advanced topics in ML theory and its applications in Finance & NLP. \
     <a href='/OxML2023Certificate-Luca_Pantea.pdf'>Certificate</a>"
 
 
@@ -15,6 +15,6 @@
   year: 2021
   url: https://www.eeml.eu/home
   summary: "A week-long program covering advanced topics in Deep Learning and Reinforcement Learning, \
-    with seminars and tutorials covering JAX, RL, causal effect estimation, explainability in ML and \
+    with seminars and tutorials about JAX, RL, causal effect estimation, explainability in ML and \
     graph representation learning. \
     <a href='/EEML2021Certificate-Luca_Pantea.pdf'>Certificate</a>"
